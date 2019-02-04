@@ -5,7 +5,7 @@ end
 
 def summon_captain_planet(array)
   array.collect {|planeteer_calls|
-    planeteer_calls[0] = planeteer_calls[0].upcase
+    planeteer_calls[0] = planeteer_calls[0].upcase #First letter in string stored as upcase.
     planeteer_calls += "!"
   }
 end
